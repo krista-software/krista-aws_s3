@@ -274,12 +274,12 @@ Result: Media files accessible without exposing AWS credentials
 
 ## Related Catalog Requests
 
-- [Upload File](UploadFile.md) - Upload files to generate download URLs for
-- [Download as a File](DownloadAsAFile.md) - Download files as Krista file objects
-- [List File from Bucket](ListFileFromBucket.md) - Verify files exist before generating URLs
-- [Delete File](DeleteFile.md) - Remove files when no longer needed
-- [Copy S3 File](CopyS3File.md) - Copy files to different buckets
-- [Move S3 File](MoveS3File.md) - Move files between buckets
+- [Upload File](pages/UploadFile.md) - Upload files to generate download URLs for
+- [Download as a File](pages/DownloadAsAFile.md) - Download files as Krista file objects
+- [List File from Bucket](pages/ListFileFromBucket.md) - Verify files exist before generating URLs
+- [Delete File](pages/DeleteFile.md) - Remove files when no longer needed
+- [Copy S3 File](pages/CopyS3File.md) - Copy files to different buckets
+- [Move S3 File](pages/MoveS3File.md) - Move files between buckets
 
 ## Technical Implementation
 
@@ -358,6 +358,6 @@ No specific telemetry metrics are tracked for this operation.
 ## See Also
 
 - [Extension Configuration](/pages/ExtensionConfiguration.md) - Setup and credentials
-- [Authentication](/pages/Authentication.md) - AWS Signature authentication
+- [Authentication](/pages/authentication.md) - AWS Signature authentication
 - [AWS S3 Pre-signed URLs Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html)
 

@@ -9,7 +9,7 @@ detailed information about the configuration parameters and step-by-step setup i
 
 | Parameter  | Type | Required | Description                                                     | Example                                    |
 |------------|------|----------|-----------------------------------------------------------------|--------------------------------------------|
-| Access Key | Text | Yes      | Your IAM user's Access Key ID for AWS authentication            | `AKIAIOSFODNN7EXAMPLE`                     |
+| Access Key | Text | Yes      | Your IAM user's Access Key ID for AWS authentication            | `REDACTED_SECRET`                     |
 | Secret Key | Text | Yes      | Your IAM user's Secret Access Key for AWS authentication        | `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY` |
 | Region     | Text | Yes      | AWS region where your S3 buckets are located or will be created | `us-east-1`                                |
 
@@ -28,7 +28,7 @@ detailed information about the configuration parameters and step-by-step setup i
 
 1. **Access Key**: Enter your IAM user's Access Key ID
     - This is a 20-character alphanumeric string
-    - Example: `AKIAIOSFODNN7EXAMPLE`
+    - Example: `REDACTED_SECRET`
     - Obtain this from the AWS IAM console (see [Creating AWS User](/pages/CreatingAWSUser.md))
 
 2. **Secret Key**: Enter your IAM user's Secret Access Key

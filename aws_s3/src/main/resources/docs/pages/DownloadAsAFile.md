@@ -364,6 +364,6 @@ No specific telemetry metrics are tracked for this operation.
 ## See Also
 
 - [Extension Configuration](/pages/ExtensionConfiguration.md) - Setup and credentials
-- [Authentication](/pages/Authentication.md) - AWS Signature authentication
+- [Authentication](/pages/authentication.md) - AWS Signature authentication
 - [AWS S3 GetObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html)
 

@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 package app.krista.extensions.essentials.cloudstorage.aws_s3;
@@ -77,7 +77,7 @@ public class AWS3ExtensionTest {
     public void testValidateConnection_WhenValidCredentials_CompletesSuccessfully() {
         // Arrange
         Map<String, Object> connectionAttributes = new HashMap<>();
-        connectionAttributes.put(AWS3Attributes.CLIENT_ACCESS_KEY, "AKIAIOSFODNN7EXAMPLE");
+        connectionAttributes.put(AWS3Attributes.CLIENT_ACCESS_KEY, "REDACTED_SECRET");
         connectionAttributes.put(AWS3Attributes.CLIENT_SECRET, "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         connectionAttributes.put(AWS3Attributes.CLIENT_REGION, "us-east-1");
 
@@ -120,7 +120,7 @@ public class AWS3ExtensionTest {
     public void testValidateConnection_WhenS3ClientThrowsException_ThrowsIllegalArgumentException() {
         // Arrange
         Map<String, Object> connectionAttributes = new HashMap<>();
-        connectionAttributes.put(AWS3Attributes.CLIENT_ACCESS_KEY, "AKIAIOSFODNN7EXAMPLE");
+        connectionAttributes.put(AWS3Attributes.CLIENT_ACCESS_KEY, "REDACTED_SECRET");
         connectionAttributes.put(AWS3Attributes.CLIENT_SECRET, "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         connectionAttributes.put(AWS3Attributes.CLIENT_REGION, "us-east-1");
 

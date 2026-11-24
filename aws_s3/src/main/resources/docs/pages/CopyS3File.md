@@ -271,12 +271,12 @@ Result: Files archived for long-term retention
 
 ## Related Catalog Requests
 
-- [Upload File](UploadFile.md) - Upload files that can later be copied
-- [Download File as URL](DownloadFileAsUrl.md) - Download files before copying
-- [List File from Bucket](ListFileFromBucket.md) - Verify files before copying
-- [Delete File](DeleteFile.md) - Delete original after copying (for move operation)
-- [Move S3 File](MoveS3File.md) - Move files (copy + delete)
-- [Rename S3 File](RenameS3File.md) - Rename files (copy + delete within bucket)
+- [Upload File](pages/UploadFile.md) - Upload files that can later be copied
+- [Download File as URL](pages/DownloadFileAsUrl.md) - Download files before copying
+- [List File from Bucket](pages/ListFileFromBucket.md) - Verify files before copying
+- [Delete File](pages/DeleteFile.md) - Delete original after copying (for move operation)
+- [Move S3 File](pages/MoveS3File.md) - Move files (copy + delete)
+- [Rename S3 File](pages/RenameS3File.md) - Rename files (copy + delete within bucket)
 
 ## Technical Implementation
 
@@ -361,8 +361,8 @@ No specific telemetry metrics are tracked for this operation.
 
 ## See Also
 
-- [Extension Configuration](ExtensionConfiguration.md) - Setup and credentials
-- [Authentication](Authentication.md) - AWS Signature authentication
+- [Extension Configuration](pages/ExtensionConfiguration.md) - Setup and credentials
+- [Authentication](pages/authentication.md) - AWS Signature authentication
 - [AWS S3 CopyObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CopyObject.html)
 - [AWS S3 Cross-Region Replication](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html)
 

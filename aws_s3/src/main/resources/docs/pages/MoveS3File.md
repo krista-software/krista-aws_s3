@@ -383,7 +383,7 @@ No specific telemetry metrics are tracked for this operation.
 ## See Also
 
 - [Extension Configuration](ExtensionConfiguration.md) - Setup and credentials
-- [Authentication](Authentication.md) - AWS Signature authentication
+- [Authentication](authentication.md) - AWS Signature authentication
 - [AWS S3 CopyObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CopyObject.html)
 - [AWS S3 DeleteObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObject.html)
 

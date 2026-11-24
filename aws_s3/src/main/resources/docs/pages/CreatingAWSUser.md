@@ -78,7 +78,7 @@ This will start the user creation wizard.
 - Suitable for the Krista S3 Extension to perform all file operations
 
 **Alternative**: For restricted access, you can create a custom policy with specific permissions (
-see [Authentication](Authentication.md)).
+see [Authentication](pages/authentication.md)).
 
 ### Step 7: Review and Create
 
@@ -145,13 +145,13 @@ After completing these steps, you'll have:
 
 | Credential            | Description             | Example                                    |
 |-----------------------|-------------------------|--------------------------------------------|
-| **Access Key ID**     | 20-character identifier | `AKIAIOSFODNN7EXAMPLE`                     |
+| **Access Key ID**     | 20-character identifier | `REDACTED_SECRET`                     |
 | **Secret Access Key** | 40-character secret key | `wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY` |
 
 ## Next Steps
 
-1. **Configure the Extension**: Use the credentials in [Extension Configuration](ExtensionConfiguration.md)
-2. **Select Region**: Determine which AWS region to use (see [Authentication](Authentication.md))
+1. **Configure the Extension**: Use the credentials in [Extension Configuration](pages/ExtensionConfiguration.md)
+2. **Select Region**: Determine which AWS region to use (see [Authentication](pages/authentication.md))
 3. **Test Connection**: Verify the credentials work by running a simple catalog request
 
 ## Security Best Practices
@@ -211,7 +211,7 @@ After completing these steps, you'll have:
 ## See Also
 
 - [Extension Configuration](/pages/ExtensionConfiguration.md) - How to configure the extension with credentials
-- [Authentication](/pages/Authentication.md) - Understanding AWS Signature authentication
+- [Authentication](/pages/authentication.md) - Understanding AWS Signature authentication
 - [AWS IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html)
 - [AWS Security Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 

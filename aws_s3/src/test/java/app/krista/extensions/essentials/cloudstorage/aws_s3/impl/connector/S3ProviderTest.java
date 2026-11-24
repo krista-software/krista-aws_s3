@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 package app.krista.extensions.essentials.cloudstorage.aws_s3.impl.connector;
@@ -71,7 +71,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenValidCredentials_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("us-east-1");
 
@@ -90,7 +90,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenRegionIsUpperCase_ConvertsToLowerCase() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("US-EAST-1");
 
@@ -107,7 +107,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenRegionIsMixedCase_ConvertsToLowerCase() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("Us-EaSt-1");
 
@@ -123,7 +123,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenDifferentRegion_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("eu-west-1");
 
@@ -139,7 +139,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_CalledMultipleTimes_CreatesNewClientEachTime() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("us-east-1");
 
@@ -173,7 +173,7 @@ public class S3ProviderTest {
     @Test(expected = AmazonClientException.class)
     public void testGetS3Client_WhenNullSecretKey_ThrowsAmazonClientException() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn(null);
         when(mockAttributes.getRegion()).thenReturn("us-east-1");
 
@@ -202,7 +202,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenEmptySecretKey_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("");
         when(mockAttributes.getRegion()).thenReturn("us-east-1");
 
@@ -218,7 +218,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenInvalidRegion_CreatesClientButMayFailOnUse() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("invalid-region-xyz");
 
@@ -239,7 +239,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenNullRegion_ThrowsAmazonClientException() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn(null);
 
@@ -257,7 +257,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenEmptyRegion_CreatesClientButMayFailOnUse() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("");
 
@@ -296,7 +296,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenApSoutheast1Region_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("ap-southeast-1");
 
@@ -312,7 +312,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenUsWest2Region_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("us-west-2");
 
@@ -328,7 +328,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenEuCentral1Region_ReturnsS3Client() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("eu-central-1");
 
@@ -344,7 +344,7 @@ public class S3ProviderTest {
     @Test
     public void testGetS3Client_WhenAttributesChange_UsesNewAttributes() {
         // Arrange
-        when(mockAttributes.getAccessKey()).thenReturn("AKIAIOSFODNN7EXAMPLE");
+        when(mockAttributes.getAccessKey()).thenReturn("REDACTED_SECRET");
         when(mockAttributes.getSecretKey()).thenReturn("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY");
         when(mockAttributes.getRegion()).thenReturn("us-east-1");
 

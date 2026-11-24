@@ -346,8 +346,8 @@ No specific telemetry metrics are tracked for this operation.
 
 ## See Also
 
-- [Extension Configuration](/pages/ExtensionConfiguration.md) - Setup and credentials
-- [Authentication](/pages/authentication.md) - AWS Signature authentication
+- [Extension Configuration](pages/ExtensionConfiguration.md) - Setup and credentials
+- [Authentication](pages/authentication.md) - AWS Signature authentication
 - [AWS S3 DeleteObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteObject.html)
 - [AWS S3 Versioning](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
 

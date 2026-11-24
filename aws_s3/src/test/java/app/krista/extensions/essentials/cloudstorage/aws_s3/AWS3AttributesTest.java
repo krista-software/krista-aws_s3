@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 package app.krista.extensions.essentials.cloudstorage.aws_s3;
@@ -35,7 +35,7 @@ import static org.mockito.Mockito.when;
  */
 public class AWS3AttributesTest {
 
-    private static final String TEST_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
+    private static final String TEST_ACCESS_KEY = "REDACTED_SECRET";
     private static final String TEST_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
     private static final String TEST_REGION = "us-east-1";
 
@@ -128,7 +128,7 @@ public class AWS3AttributesTest {
         // Arrange
         AWS3Attributes attributes = new AWS3Attributes(TEST_ACCESS_KEY, TEST_SECRET_KEY, TEST_REGION);
         Map<String, Object> newAttributes = new HashMap<>();
-        String newAccessKey = "NEWAKIAIOSFODNN7EXAMPLE";
+        String newAccessKey = "NEWREDACTED_SECRET";
         String newSecretKey = "NEWwJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
         String newRegion = "us-west-2";
         newAttributes.put(AWS3Attributes.CLIENT_ACCESS_KEY, newAccessKey);

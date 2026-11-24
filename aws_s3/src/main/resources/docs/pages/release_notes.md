@@ -5,7 +5,7 @@
 This document provides version history, bug fixes, new features, and known issues for the Krista AWS S3 Extension.
 
 ---
-## Version 2.0.5
+## Version 2.0.6
 
 **Release Date**: December 2025
 
@@ -13,10 +13,10 @@ This document provides version history, bug fixes, new features, and known issue
 
 | Component                  | Version       |
 |----------------------------|---------------|
-| Extension Version          | 2.0.5         |
+| Extension Version          | 2.0.6         |
 | Developer                  | Simran Sethi  |
 | Krista Service APIs (Java) | 1.0.117       |
-| Global Catalog Version     | GC-2025.12.01 |
+| Global Catalog Version     | GC-2026.02.02 |
 | Java Version               | 21            |
 | AWS SDK for Java           | 1.12.547      |
 

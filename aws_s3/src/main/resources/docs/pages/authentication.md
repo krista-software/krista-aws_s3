@@ -41,7 +41,7 @@ The extension requires three authentication parameters:
 
 - **Description**: Your IAM user's unique Access Key identifier
 - **Format**: 20-character alphanumeric string
-- **Example**: `AKIAIOSFODNN7EXAMPLE`
+- **Example**: `REDACTED_SECRET`
 - **Purpose**: Identifies which IAM user is making the request
 - **Security**: Can be shared in logs and error messages (not sensitive)
 
@@ -63,13 +63,13 @@ The extension requires three authentication parameters:
 
 ## Configuration Example
 
-![Authentication Setup](../_media/authentication_setup.png)
+![Authentication Setup](../_media/Authentication_setup.png)
 
 When configuring the extension, provide:
 
 | Parameter      | Value                       | Description                     |
 |----------------|-----------------------------|---------------------------------|
-| **Access Key** | `AKIAIOSFODNN7EXAMPLE`      | Your IAM user Access Key ID     |
+| **Access Key** | `REDACTED_SECRET`      | Your IAM user Access Key ID     |
 | **Secret Key** | `wJalrXUtnFEMI/K7MDENG/...` | Your IAM user Secret Access Key |
 | **Region**     | `us-east-1`                 | AWS region for your S3 buckets  |
 
